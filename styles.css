@@ -9,12 +9,15 @@ body {
     display: flex;
     box-sizing: border-box;
 
-    justify-content: center;
     align-items: center;
     
     justify-content: space-between;
     padding-left: 220px;
     padding-right: 250px;
+
+    padding-top: 75px;
+
+    background-image: url("/statics/bg-pattern-top-desktop.svg");
 
 }
 
@@ -74,10 +77,12 @@ body {
 
 .cards_section {
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 40px;
+
+    background-image: url("/statics/bg-pattern-bottom-desktop.svg");
 }
 
 .card {
