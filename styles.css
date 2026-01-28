@@ -65,11 +65,11 @@ body {
 }
 
 .start_1 {
-    margin-left: -100px;
+    transform: translateX(-100px);
 }
 
 .start_2 {
-    margin-left: -50px;
+    transform: translateX(-50px);
 }
 
 
