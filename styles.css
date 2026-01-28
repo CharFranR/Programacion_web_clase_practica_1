@@ -17,7 +17,7 @@ body {
 
     padding-top: 75px;
 
-    background-image: url("https://raw.githubusercontent.com/CharFranR/Programacion_web_clase_practica_1/d2c2f99bc1bf85b77d142bba4930cf31aa94a814/statics/bg-pattern-top-desktop.svg");
+    /* background-image: url("https://raw.githubusercontent.com/CharFranR/Programacion_web_clase_practica_1/d2c2f99bc1bf85b77d142bba4930cf31aa94a814/statics/bg-pattern-top-desktop.svg"); */
 
 }
 
@@ -82,7 +82,7 @@ body {
     align-items: center;
     gap: 20px;
 
-    background-image: url("https://raw.githubusercontent.com/CharFranR/Programacion_web_clase_practica_1/d2c2f99bc1bf85b77d142bba4930cf31aa94a814/statics/bg-pattern-bottom-desktop.svg");
+    /* background-image: url("https://raw.githubusercontent.com/CharFranR/Programacion_web_clase_practica_1/d2c2f99bc1bf85b77d142bba4930cf31aa94a814/statics/bg-pattern-bottom-desktop.svg"); */
 }
 
 .card {
