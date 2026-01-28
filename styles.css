@@ -4,6 +4,31 @@ body {
     padding: 0;
 }
 
+.up_section{
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin: 40px;
+}
+
+.welcome_section {
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.stars_section{
+    box-sizing: border-box;
+    width: 400px;
+}
+
+
+
+
+
+
+
 .cards_section {
     display: flex;
     justify-content: center;
@@ -67,4 +92,3 @@ body {
     font-size: 15px;
     font-weight: normal;
 }
-
