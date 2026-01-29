@@ -26,13 +26,14 @@ body {
 
 .welcome_section {
     box-sizing: border-box;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
-.starts_section{
+.starts_section {
     box-sizing: border-box;
-    width: 400px;
-    
+    width: 100%;
+    max-width: 400px;
 }
 
 .welcome_header {
@@ -73,9 +74,8 @@ body {
 }
 
 .start_3 {
-    transform: translateX(0px);
+    transform: translateX(0);
 }
-
 
 /* css de la mitad inferior (las tarjetas) */
 
@@ -145,4 +145,102 @@ body {
     color: #aa5189;
     font-size: 15px;
     font-weight: normal;
+}
+
+
+@media screen and (max-width: 768px) {
+    .up_section {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .welcome_section {
+        max-width: 500px;
+    }
+
+    .welcome_header {
+        font-size: 32px;
+    }
+
+    .stars_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .starts {
+        max-width: 350px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .start_1,
+    .start_2,
+    .start_3 {
+        transform: translateX(0);
+    }
+
+    .cards_section {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .card_2,
+    .card_3 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .up_section {
+        padding: 30px 15px;
+    }
+
+    .welcome_header {
+        font-size: 24px;
+    }
+
+    .welcome_section p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .starts {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 15px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .starts image {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .stars_text {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        margin: 5px 0 0 0;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card_header_text h3 {
+        font-size: 14px;
+    }
 }
