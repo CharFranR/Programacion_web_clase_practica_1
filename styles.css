@@ -30,7 +30,7 @@ body {
     max-width: 400px;
 }
 
-.starts_section {
+.stars_section {
     box-sizing: border-box;
     width: 100%;
     max-width: 400px;
@@ -49,7 +49,7 @@ body {
 
 /* css de la puntuación con estrellas */
 
-.starts {
+.stars {
     display: flex;
     align-items: center;
     
@@ -65,15 +65,15 @@ body {
     font-weight: 900;
 }
 
-.start_1 {
+.star_1 {
     transform: translateX(-100px);
 }
 
-.start_2 {
+.star_2 {
     transform: translateX(-50px);
 }
 
-.start_3 {
+.star_3 {
     transform: translateX(0);
 }
 
@@ -169,15 +169,15 @@ body {
         align-items: center;
     }
 
-    .starts {
+    .stars {
         max-width: 350px;
         width: 100%;
         justify-content: center;
     }
 
-    .start_1,
-    .start_2,
-    .start_3 {
+    .star_1,
+    .star_2,
+    .star_3 {
         transform: translateX(0);
     }
 
@@ -211,7 +211,7 @@ body {
         line-height: 22px;
     }
 
-    .starts {
+    .stars {
         flex-wrap: wrap;
         height: auto;
         padding: 20px 15px;
@@ -219,7 +219,7 @@ body {
         justify-content: center;
     }
 
-    .starts image {
+    .stars image {
         display: flex;
         flex-direction: row;
         gap: 5px;
